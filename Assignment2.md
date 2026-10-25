@@ -46,3 +46,10 @@ This graph represents the occupancy pattern over time for each floor using date,
 ![Direction 3](figures/task4_noise.png)
 
 This heatmap includes date, floor, occupancy_count, and noise_level. Position encodes date and floor, color encodes noise_level, while the numbers in the boxes are occupancy_count. I created this visualization to combine occupancy and noise into a single compact representation. But due to a small dataset, the heatmap appears quite constrained, and the color encoding is difficult to interpret. 
+
+## Task 5: Interaction and multiple views
+
+I considered adding a floor filter, but it's not very useful for a small dataset. Switching between floors would make comparison less direct than showing both views at the same time.
+Instead, I used multiple views in the small-multiple line chart. Separating the two floors makes the pattern within each floor easier to see while still allowing direct visual comparison. For this dataset, static multiple views were more useful than interaction.
+
+## Task 6: 
