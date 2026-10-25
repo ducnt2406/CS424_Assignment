@@ -20,3 +20,11 @@ The notes attribute contained a blank value because it recorded only when someth
 ![Occupancy comparison](figures/task3_bar.png)
 The bar chart shows that the second floor had a much higher occupancy count than the first floor on every day. The difference between the two floors was very large throughout the 5-day period, although occupancy on both floors was lowest on Friday.
 
+### Occupancy trend
+![Occupancy trend](figures/task3_line.png)
+Two floors didn’t follow the same pattern during the 5-day period. The second floor reached its highest occupancy on Tuesday, 9/22 and then decreased for the rest of the week, while the first floor reached its highest occupancy on Wednesday, 9/23. Both floors showed a noticeable decrease by Friday, 9/25.
+
+### Occupancy and noise level
+![Occupancy and noise level](figures/task3_noise.png)
+The first floor was recorded as quiet on all 5 days, so there is not enough variation to detect a relationship with occupancy on that floor. On the second floor, higher occupancy observations were recorded as Noisy, and lower occupancy observations were recorded as Moderate. This suggests a possible relationship between higher occupancy and higher perceived noise on the second floor, although the dataset is too small to support a strong conclusion.
+
