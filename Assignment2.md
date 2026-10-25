@@ -52,4 +52,17 @@ This heatmap includes date, floor, occupancy_count, and noise_level. Position en
 I considered adding a floor filter, but it's not very useful for a small dataset. Switching between floors would make comparison less direct than showing both views at the same time.
 Instead, I used multiple views in the small-multiple line chart. Separating the two floors makes the pattern within each floor easier to see while still allowing direct visual comparison. For this dataset, static multiple views were more useful than interaction.
 
-## Task 6: 
+## Task 6: Iterate and refine
+
+I chose the 2nd direction because that is the strongest direction to show how occupancy changes over time for each floor
+
+### Iteration 1: Normalize occupancy
+![Ite_1](figures/task6_ite1.png)
+The origin chart from task 3 cannot show the change in occupancy rate over a 5-day period. Using the same scale for both floors compresses the number of first floor because the second floor is much higher. Therefore, I updated it by refining it into 2 charts for each floor in task 4. The visualization is much better for individual floors; however, different occupancy scales make it very difficult to make any comparison between the two floors.
+I converted occupancy_count to occupancy_index, with the first day for each floor set to 100. Both the first and second floors now use the same scale, making relative changes easier to compare between them.
+
+
+### Iteration 2: Combine both floors
+![Ite_2](figures/task6_ite2.png)
+After normalization, both floors could be compared on the same scale. However, the separate panels still required the viewer to manually compare the patterns between the two floors. Therefore, I combined both floors into one line chart while keeping the normalized occupancy index. This makes the trend and characteristic (similarities and differences) between the two patterns easier to see directly. For example, the first floor increased more sharply on 9/23, while both floors decreased toward the end of the week.
+
