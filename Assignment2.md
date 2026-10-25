@@ -11,4 +11,9 @@ The dataset I use for Assignment 2 is the same as in CS 424 Assignment 1, with 1
 
 I decided to keep the 1st, 2nd, and 3rd questions but remove the 4th because the small dataset makes it easy to directly identify the day with the highest and lowest numbers of occupants. 
 
+## Task 2: Prepare Data
+I used Pandas to inspect the old dataset in Excel to find missing values, duplicate rows, and other issues. No major errors were found in the main attributes used for analysis and visualization. 
+The notes attribute contained a blank value because it recorded only when something unusual occurred. To avoid representing blank cells as NaN in the CSV, I replace them with a new value called Normal, indicating that no unusual event was noted for that observation. 
+
+
 
