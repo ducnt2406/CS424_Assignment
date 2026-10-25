@@ -1,11 +1,11 @@
 date,time,floor,occupancy_count,noise_level,notes
-9/21/2026,4pm,first,53,Quiet,Normal
-9/21/2026,4pm,second,387,Noisy,High movement
-9/22/2026,4pm,first,48,Quiet,Normal
-9/22/2026,4pm,second,422,Noisy,High movement
-9/23/2026,4pm,first,58,Quiet,Normal
-9/23/2026,4pm,second,405,Noisy,High movement
-9/24/2026,4pm,first,49,Quiet,Normal
-9/24/2026,4pm,second,365,Moderate,High movement
-9/25/2026,4pm,first,32,Quiet,Lower than usual
-9/25/2026,4pm,second,285,Moderate,Lower than usual
+9/21,4pm,first,53,Quiet,Normal
+9/21,4pm,second,387,Noisy,High movement
+9/22,4pm,first,48,Quiet,Normal
+9/22,4pm,second,422,Noisy,High movement
+9/23,4pm,first,58,Quiet,Normal
+9/23,4pm,second,405,Noisy,High movement
+9/24,4pm,first,49,Quiet,Normal
+9/24,4pm,second,365,Moderate,High movement
+9/25,4pm,first,32,Quiet,Lower than usual
+9/25,4pm,second,285,Moderate,Lower than usual

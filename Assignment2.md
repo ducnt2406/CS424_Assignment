@@ -11,11 +11,11 @@ The dataset I use for Assignment 2 is the same as in CS 424 Assignment 1, with 1
 
 I decided to keep the 1st, 2nd, and 3rd questions but remove the 4th because the small dataset makes it easy to directly identify the day with the highest and lowest numbers of occupants. 
 
-## Task 2: Prepare Data
+## Task 2: Prepare the Data
 I used Pandas to inspect the old dataset in Excel to find missing values, duplicate rows, and other issues. No major errors were found in the main attributes used for analysis and visualization. 
 The notes attribute contained a blank value because it recorded only when something unusual occurred. To avoid representing blank cells as NaN in the CSV, I replace them with a new value called Normal, indicating that no unusual event was noted for that observation. 
 
-## Task 3: Explore Data
+## Task 3: Explore the Data
 ### Occupancy comparison
 ![Occupancy comparison](figures/task3_bar.png)
 The bar chart shows that the second floor had a much higher occupancy count than the first floor on every day. The difference between the two floors was very large throughout the 5-day period, although occupancy on both floors was lowest on Friday.
@@ -28,3 +28,4 @@ Two floors didn’t follow the same pattern during the 5-day period. The second 
 ![Occupancy and noise level](figures/task3_noise.png)
 The first floor was recorded as quiet on all 5 days, so there is not enough variation to detect a relationship with occupancy on that floor. On the second floor, higher occupancy observations were recorded as Noisy, and lower occupancy observations were recorded as Moderate. This suggests a possible relationship between higher occupancy and higher perceived noise on the second floor, although the dataset is too small to support a strong conclusion.
 
+## Task 4: Implement visualization alternatives
