@@ -68,3 +68,9 @@
 - After normalization, both floors could be compared on the same scale. However, the separate panels still required the viewer to manually compare the patterns between the two floors. Therefore, I combined both floors into one line chart while keeping the normalized occupancy index. This makes the trend and characteristic (similarities and differences) between the two patterns easier to see directly. 
 - For example, the first floor increased more sharply on 9/23, while both floors decreased toward the end of the week.
 
+## Task 7: Current design
+- The visualization I would currently continue is the normalized line chart from the second iteration. It primarily addresses whether the two floors exhibit similar or different occupancy patterns across the five collection days.
+- The main design decision was to convert occupancy to an index, with the first day set to 100, and to display both floors on the same chart. This allows the relative changes in occupancy to be compared directly, even though the two floors have very different actual occupancy counts.
+- Compared with my Assignment 1 sketches and earlier implementations, this design focuses more on relative change between days rather than the absolute occupancy value. Earlier versions either used the same raw scale or separated the floors into different views. The current design places both patterns on one shared scale.
+- The design currently works well for showing where the two floors follow similar or different patterns. However, I am still unsure whether the normalized occupancy index is immediately understandable to viewers and whether removing the actual occupancy counts hides important information.
+- In Assignment 3, I will evaluate whether viewers can understand the normalized scale and compare patterns between the two floors. I would like to find normalized values that bring more benefit rather than showing raw occupancy values.
