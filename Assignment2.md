@@ -4,7 +4,7 @@
 
 ### Data review
 
-- The dataset I use for Assignment 2 is the same as in CS 424 Assignment 1, with 10 observations collected on the first and second floors of the UIC Richard J. Daley Library in a 5-day period at 4 pm. I reviewed the data again and found no problem in the main attributes used for analysis. Some limitations are: a small dataset, not occupancy counts, and noise levels measured by feelings.
+- The dataset I use for Assignment 2 is the same as in CS 424 Assignment 1, with 10 observations collected on the first and second floors of the UIC Richard J. Daley Library in a 5-day period at 4 pm. I reviewed the data again and found no problem in the main attributes used for analysis. Some limitations are: a small dataset,approximate rather than exact occupancy counts, and noise levels measured by feelings.
 
 ### Questions for Assignment 2
 
@@ -65,7 +65,7 @@
 ### Iteration 1: Normalize occupancy
 ![Ite_1](figures/task6_ite1.png)
 
-- The original chart from task 3 cannot show the relative change in occupancy over a 5-day period. Using the same scale for both floors compresses the number of first floor because the second floor is much higher. Therefore, I updated it by refining it into 2 charts for each floor in task 4. The visualization is much better for individual floors; however, different occupancy scales make it very difficult to make any comparison between the two floors.
+- The original chart from task 3 not fully show the relative change in occupancy over a 5-day period. Using the same scale for both floors compresses the number of first floor because the second floor is much higher. Therefore, I updated it by refining it into 2 charts for each floor in task 4. The visualization is much better for individual floors; however, different occupancy scales make it very difficult to make any comparison between the two floors.
 - I converted occupancy_count to occupancy_index, with Monday for each floor set to 100. Both the first and second floors now use the same scale, which is easier for comparison.
 
 
