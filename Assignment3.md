@@ -29,29 +29,39 @@ The raw occupancy view supports comparing the actual occupancy difference betwee
 
 I designed two analytical tasks. Each task has two comparable variants so participants do not answer the exact same question in both conditions.
 
-#### Task 1: Compare occupancy disparity
+#### Task 1: Compare changes in occupancy disparity
 
-This task asks participants to compare the occupancy difference between the first and second floors across two days.
+- **Task 1A:** Which interval had the larger change in occupancy disparity between the two floors: Monday to Wednesday or Wednesday to Friday?
+  - Expected answer: **Wednesday to Friday**
+  - Monday disparity: 387 - 53 = 334
+  - Wednesday disparity: 405 - 58 = 347
+  - Friday disparity: 285 - 32 = 253
+  - Monday to Wednesday change: |347 - 334| = 13
+  - Wednesday to Friday change: |253 - 347| = 94
 
-- **Task 1A:** Which day had the larger occupancy disparity between the two floors: Monday or Friday?
-  - Expected answer: **Monday**
-  - Monday difference: 387 - 53 = 334
-  - Friday difference: 285 - 32 = 253
+- **Task 1B:** Which interval had the larger change in occupancy disparity between the two floors: Monday to Thursday or Tuesday to Friday?
+  - Expected answer: **Tuesday to Friday**
+  - Monday disparity: 334
+  - Thursday disparity: 365 - 49 = 316
+  - Tuesday disparity: 422 - 48 = 374
+  - Friday disparity: 253
+  - Monday to Thursday change: |316 - 334| = 18
+  - Tuesday to Friday change: |253 - 374| = 121
 
-- **Task 1B:** Which day had the larger occupancy disparity between the two floors: Thursday or Tuesday?
-  - Expected answer: **Tuesday**
-  - Thursday difference: 365 - 49 = 316
-  - Tuesday difference: 422 - 48 = 374
+#### Task 2: Compare relative occupancy variation
 
-#### Task 2: Compare relative occupancy change
+For this task, range means the highest occupancy index minus the lowest occupancy index.
 
-This task asks participants to use the occupancy index to determine which floor experienced the larger relative change between two days.
-
-- **Task 2A:** Between Tuesday and Thursday, which floor had the larger change in occupancy index?
-  - Expected answer: **Second floor**
-
-- **Task 2B:** Between Tuesday and Wednesday, which floor had the larger change in occupancy index?
+- **Task 2A:** Across Monday, Tuesday, and Wednesday, which floor had the larger range in occupancy index?
   - Expected answer: **First floor**
+  - First floor range: about 109.4 - 90.6 = 18.8
+  - Second floor range: about 109.0 - 100 = 9.0
+
+- **Task 2B:** Across Monday, Tuesday, and Thursday, which floor had the larger range in occupancy index?
+  - Expected answer: **Second floor**
+  - First floor range: about 100 - 90.6 = 9.4
+  - Second floor range: about 109.0 - 94.3 = 14.7
+
 
 ### Experimental design
 
@@ -61,8 +71,8 @@ To reduce learning effects, participants will be divided into two groups:
 
 |Group|First condition|Questions|Second condition|Questions|
 |---|---|---|---|---|
-|A|Static|Task 1A,Task 2A|Interactive|Task 1B, Task 2B|
-|B|Interactive|Task 1A,Task 2A| Static|Task 1B, Task 2B|
+|A|Static|Task 1A,Task 2A|Interactive|Task 1B,Task 2B|
+|B|Interactive|Task 1A,Task 2A|Static|Task 1B,Task 2B|
 
 Five participants will be assigned to each group. This balances the presentation order and distributes the question variants across both conditions.
 
