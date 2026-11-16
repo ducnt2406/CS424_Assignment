@@ -6,6 +6,10 @@ The Assignment 1 writeup is available in `Assignment1.md`.
 ## Assignment 2
 The Assignment 2 writeup is available in `Assignment2.md`.
 
+## Assignment 3
+The Assignment 3 writeup is available in `Assignment3.md`.
+
+
 ## How to run
 1. Install all the required python packages
 - pandas
