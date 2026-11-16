@@ -1,0 +1,41 @@
+participant_id,group,condition,task,answer,correctness,time_seconds
+P01,A,Static,Task1A,Wednesday to Friday,1,65
+P01,A,Static,Task2A,First floor,1,23
+P01,A,Interactive,Task1B,Tuesday to Friday,1,50
+P01,A,Interactive,Task2B,Second floor,1,24
+P02,A,Static,Task1A,Wednesday to Friday,1,48
+P02,A,Static,Task2A,First floor,1,15
+P02,A,Interactive,Task1B,Tuesday to Friday,1,37
+P02,A,Interactive,Task2B,Second floor,1,13
+P03,A,Static,Task1A,Wednesday to Friday,1,50
+P03,A,Static,Task2A,First floor,1,25
+P03,A,Interactive,Task1B,Tuesday to Friday,1,52
+P03,A,Interactive,Task2B,Second floor,1,20
+P04,A,Static,Task1A,No answer,0,96
+P04,A,Static,Task2A,First floor,1,35
+P04,A,Interactive,Task1B,Monday to Thursday,0,71
+P04,A,Interactive,Task2B,Second floor,1,33
+P05,A,Static,Task1A,Wednesday to Friday,1,55
+P05,A,Static,Task2A,First floor,1,17
+P05,A,Interactive,Task1B,Monday to Thursday,0,42
+P05,A,Interactive,Task2B,Second floor,1,17
+P06,B,Interactive,Task1A,Wednesday to Friday,1,45
+P06,B,Interactive,Task2A,First floor,1,25
+P06,B,Static,Task1B,Tuesday to Friday,1,49
+P06,B,Static,Task2B,Second floor,1,28
+P07,B,Interactive,Task1A,Wednesday to Friday,1,27
+P07,B,Interactive,Task2A,First floor,1,16
+P07,B,Static,Task1B,Monday to Thursday,0,25
+P07,B,Static,Task2B,Second floor,1,18
+P08,B,Interactive,Task1A,No answer,0,67
+P08,B,Interactive,Task2A,First floor,1,23
+P08,B,Static,Task1B,No answer,0,44
+P08,B,Static,Task2B,Second floor,1,25
+P09,B,Interactive,Task1A,No answer,0,45
+P09,B,Interactive,Task2A,Second floor,0,37
+P09,B,Static,Task1B,No answer,0,31
+P09,B,Static,Task2B,Second floor,1,39
+P10,B,Interactive,Task1A,No answer,0,83
+P10,B,Interactive,Task2A,First floor,1,29
+P10,B,Static,Task1B,No answer,0,67
+P10,B,Static,Task2B,Second floor,1,25
