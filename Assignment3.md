@@ -144,3 +144,15 @@ Task 1 was generally more difficult and slower than Task 2. This is consistent w
 My hypothesis was that the interactive version would reduce completion time while maintaining similar accuracy. The results provide limited support for this hypothesis. The interactive version was slightly faster overall, but its accuracy was also slightly lower.
 
 Because the differences were small and performance varied across tasks and participants, the results do not show that one version was clearly better than the other.
+
+## Task 5: Reflection and Recommendations
+
+The interactive version was slightly faster overall, but it did not improve accuracy. One strength of the interaction is that it shows only one graph at a time, which can reduce visual clutter compared with the two side-by-side static charts.
+
+A weakness is that switching between views did not consistently improve performance. Task 1 was much slower and more difficult than Task 2 in both conditions, suggesting that task difficulty had a larger effect than the interaction itself.
+
+If I improved the visualization, I would make the relationship between the raw occupancy and occupancy index views clearer and add more guidance for interpreting the occupancy index.
+
+This evaluation also has several limitations. The study used only 10 participants, participants had different backgrounds, and the two analytical tasks had different difficulty levels. Participants also recorded their own completion times, which may have introduced small timing differences. Learning effects may also have influenced performance because every participant used both conditions.
+
+Overall, the interactive version provided a cleaner way to switch between the two views, but the results do not show a clear performance advantage over the static version.

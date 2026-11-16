@@ -10,17 +10,18 @@ The Assignment 2 writeup is available in `Assignment2.md`.
 The Assignment 3 writeup is available in `Assignment3.md`.
 
 
-## How to run
+## How to run Assignment 3
 1. Install all the required python packages
 - pandas
 - matplotlib
 - seaborn
 - openpyxl
+- nbformat
+- plotly
+- numpy
 
 2. Run the notebooks (.ipynb) in the order
-- `notebooks/task2_preparation.ipynb`
-- `notebooks/task3_exploration.ipynb`
-- `notebooks/task4_visualization.ipynb`
-- `notebooks/task6_refinement.ipynb`
+- `AS3_notebooks/task1_interaction.ipynb`
+- `AS3_notebooks/task4_analysis.ipynb`
 
-The original and processed datasets are available in the data/ folder.
+The original and processed datasets are available in the data folder. 
