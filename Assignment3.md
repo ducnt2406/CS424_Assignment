@@ -110,3 +110,37 @@ I conducted the main study with 10 participants. Five participants completed the
 
 ### Collected data
 I recorded participant ID, group, condition, task, answer, correctness, and completion time. The results are stored in data/evaluation_results.csv, while the pilot data is stored in data/pilot_results.csv.
+
+## Task 4: Quantitative Analysis
+
+### Overall results
+
+The interactive condition had a mean accuracy of **0.70** and a mean completion time of **37.8 seconds**. The static condition had a mean accuracy of **0.75** and a mean completion time of **39.0 seconds**.
+
+Overall, the interactive version was about **1.2 seconds faster**, but its accuracy was **5 percentage points lower**.
+
+### Accuracy
+
+![Accuracy comparison](AS3_figures/task4_accuracy.png)
+
+Accuracy was similar between the two conditions, with the static version slightly higher overall.
+
+Task difficulty had a larger effect than the condition. Task 2 had high accuracy in both versions, while Task 1 produced more incorrect and `No answer` responses. For example, Task 2B had an accuracy of **1.0** in both conditions.
+
+### Completion time
+
+![Completion time comparison](AS3_figures/task4_completion.png)
+
+Participants were slightly faster overall with the interactive version. However, this pattern was not consistent across every task. For Task 1A, the interactive mean time was **53.4 seconds**, compared with **62.8 seconds** for static. In Task 1B, the interactive version was slower at **50.4 seconds**, compared with **43.2 seconds** for static.
+
+### Differences across participants and tasks
+
+Performance also varied across participants. Some participants completed the interactive condition faster, while others were faster with the static condition. Accuracy also varied, with some participants performing equally in both conditions and others performing better in one condition.
+
+Task 1 was generally more difficult and slower than Task 2. This is consistent with the pilot observation that Task 1 required more calculation steps.
+
+### Interpretation
+
+My hypothesis was that the interactive version would reduce completion time while maintaining similar accuracy. The results provide limited support for this hypothesis. The interactive version was slightly faster overall, but its accuracy was also slightly lower.
+
+Because the differences were small and performance varied across tasks and participants, the results do not show that one version was clearly better than the other.
