@@ -6,13 +6,13 @@ I selected the line chart from Assignment 2 because it compares occupancy patter
 
 ### Static version
 
-![Static version](figures_assignment3/task1_static.png)
+![Static version](AS3_figures/task1_static.png)
 
 The static version shows two views side by side. The first chart shows the original occupancy counts, while the second chart shows the normalized occupancy index where Monday is set to 100. This allows viewers to compare both the actual occupancy difference and the relative pattern between the two floors.
 
 ### Interactive version
 
-![Interactive version](figures_assignment3/task1_interactive.png)
+![Interactive version](AS3_figures/task1_interactive.png)
 
 The interactive version uses the same dataset but combines the two views into one chart. A dropdown allows the viewer to switch between `Raw occupancy` and `Occupancy index`.
 
@@ -92,3 +92,19 @@ Participants will first receive a short explanation of the visualization control
 Only one condition will be shown at a time. For each question, I will start timing when the participant receives the question and stop timing when they provide their final answer. I will record the answer, whether it is correct, and the completion time in seconds.
 
 Before the main study, I will conduct a pilot with one or two participants to check whether the instructions are clear, the questions have appropriate difficulty, and the timing procedure works correctly.
+
+
+## Task 3: Conducting the Evaluation
+
+### Pilot evaluation
+I conducted a pilot evaluation with one participant before the main study. The participant completed all four questions correctly.
+
+The participant reported that the interactive visualization was easier to view because it displayed one graph at a time, while the static version showed two graphs side by side. The participant also found Task 1 more difficult than Task 2 because Task 1 required more calculation steps.
+
+The completion times were 46 and 19 seconds for the two static questions, and 40 and 15 seconds for the two interactive questions. The participant did not report any problems understanding or using the dropdown.
+
+Based on the pilot, the questions and visualization were understandable, so I kept the revised tasks for the main study.
+
+### Main study
+
+### Collected data

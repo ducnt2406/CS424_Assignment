@@ -1,0 +1,5 @@
+pilot_id,condition,task,answer,correctness(1/0),time_seconds
+Pilot00,Static,Task1A,Wednesday to Friday,1,46,
+Pilot00,Static,Task2A,First floor,1,19,
+Pilot00,Interactive,Task1B,Tuesday to Friday,1,40,
+Pilot00,Interactive,Task2B,Second floor,1,15,
