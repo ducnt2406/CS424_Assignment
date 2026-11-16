@@ -24,5 +24,6 @@ The Assignment 3 writeup is available in `Assignment3.md`.
 - `AS3_notebooks/task1_interaction.ipynb`
 - `AS3_notebooks/task4_analysis.ipynb`
 
-The interactive visualization can also be opened directly at AS3_figures/task1_interactive.html
-The original and processed datasets are available in the data folder. Evaluation results are saved in AS3_Pilot.csv and AS3_evaluation_result.csv
+The interactive visualization can also be opened directly at AS3_figures/task1_interactive.html.
+
+The original and processed datasets are available in the data folder. Evaluation results are saved in AS3_Pilot.csv and AS3_evaluation_result.csv.
