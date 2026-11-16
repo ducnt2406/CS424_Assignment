@@ -106,5 +106,7 @@ The completion times were 46 and 19 seconds for the two static questions, and 40
 Based on the pilot, the questions and visualization were understandable, so I kept the revised tasks for the main study.
 
 ### Main study
+I conducted the main study with 10 participants. Five participants completed the static condition first, while the other five completed the interactive condition first. Each participant answered four questions and recorded their completion time for each question.
 
 ### Collected data
+I recorded participant ID, group, condition, task, answer, correctness, and completion time. The results are stored in data/evaluation_results.csv, while the pilot data is stored in data/pilot_results.csv.
