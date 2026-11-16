@@ -14,6 +14,9 @@ The static version shows two views side by side. The first chart shows the origi
 
 ![Interactive version](AS3_figures/task1_interactive.png)
 
+The interactive visualization is available at
+[task1_interactive.html](AS3_figures/task1_interactive.html)
+
 The interactive version uses the same dataset but combines the two views into one chart. A dropdown allows the viewer to switch between `Raw occupancy` and `Occupancy index`.
 
 The raw occupancy view supports comparing the actual occupancy difference between the two floors. The occupancy index view supports comparing their relative changes over time. I expect the interaction to help users switch between these two analytical perspectives without having to compare two separate charts at the same time.
@@ -65,34 +68,33 @@ For this task, range means the highest occupancy index minus the lowest occupanc
 
 ### Experimental design
 
-The study will use a within-subject design, so every participant will use both the static and interactive versions. Each participant will answer two questions with the static version and two questions with the interactive version.
+The study used a within-subject design, so every participant used both the static and interactive versions. Each participant answered two questions with the static version and two questions with the interactive version.
 
-To reduce learning effects, participants will be divided into two groups:
+To reduce learning effects, participants were divided into two groups:
 
 |Group|First condition|Questions|Second condition|Questions|
 |---|---|---|---|---|
 |A|Static|Task 1A,Task 2A|Interactive|Task 1B,Task 2B|
 |B|Interactive|Task 1A,Task 2A|Static|Task 1B,Task 2B|
 
-Five participants will be assigned to each group. This balances the presentation order and distributes the question variants across both conditions.
+Five participants were assigned to each group. This balanced the presentation order and distributed the question variants across both conditions.
 
 ### Measurements
 
-For every question, I will record:
+For every question, I recorded:
 
-- **Accuracy:** whether the participant gives the correct answer.
-- **Completion time:** the number of seconds from when the question is presented until the participant gives an answer.
+- **Accuracy:** whether the participant gave the correct answer.
+- **Completion time:** the number of seconds required to complete the question.
 
-I will also record short observations if a participant appears confused by the occupancy index, has difficulty using the dropdown, or has difficulty deciding which view to use.
+Correct answers were recorded as 1, while incorrect and No answer responses were recorded as 0.
 
 ### Procedure
 
-Participants will first receive a short explanation of the visualization controls without being shown the answers to any analytical questions. They will then complete the four questions according to their assigned condition order.
+Participants first received a short explanation of the visualization controls without being shown the answers to any analytical questions. They then completed the four questions according to their assigned condition order.
 
-Only one condition will be shown at a time. For each question, I will start timing when the participant receives the question and stop timing when they provide their final answer. I will record the answer, whether it is correct, and the completion time in seconds.
+Participants recorded their own completion time for each question. They started the timer when they began reading the question and stopped it when they gave their final answer. They were asked to answer as quickly as they reasonably could, and they could select No answer if they could not determine an answer.
 
-Before the main study, I will conduct a pilot with one or two participants to check whether the instructions are clear, the questions have appropriate difficulty, and the timing procedure works correctly.
-
+Before the main study, I conducted a pilot with one participant to check whether the instructions were clear, the questions had appropriate difficulty, and the timing procedure worked correctly.
 
 ## Task 3: Conducting the Evaluation
 
@@ -109,50 +111,54 @@ Based on the pilot, the questions and visualization were understandable, so I ke
 I conducted the main study with 10 participants. Five participants completed the static condition first, while the other five completed the interactive condition first. Each participant answered four questions and recorded their completion time for each question.
 
 ### Collected data
-I recorded participant ID, group, condition, task, answer, correctness, and completion time. The results are stored in data/evaluation_results.csv, while the pilot data is stored in data/pilot_results.csv.
+I recorded participant ID, group, condition, task, answer, correctness, and completion time. The results are stored in data/AS3_evaluation_result.csv, while the pilot data is stored in data/AS3_Pilot.csv.
 
 ## Task 4: Quantitative Analysis
 
 ### Overall results
 
-The interactive condition had a mean accuracy of **0.70** and a mean completion time of **37.8 seconds**. The static condition had a mean accuracy of **0.75** and a mean completion time of **39.0 seconds**.
+The interactive condition had a mean accuracy of 0.70, a median of 1.0, and a standard deviation of 0.47. The static condition had a mean accuracy of 0.75, a median of 1.0, and a standard deviation of 0.44.
 
-Overall, the interactive version was about **1.2 seconds faster**, but its accuracy was **5 percentage points lower**.
+For completion time, the interactive condition had a mean of 37.8 seconds, a median of 35.0 seconds, and a standard deviation of 19.33 seconds. The static condition had a mean of 39.0 seconds, a median of 33.0 seconds, and a standard deviation of 20.56 seconds.
+
+The interactive version was slightly faster on average, while the static version had slightly higher accuracy. The differences between the two conditions were small.
 
 ### Accuracy
 
 ![Accuracy comparison](AS3_figures/task4_accuracy.png)
 
-Accuracy was similar between the two conditions, with the static version slightly higher overall.
+The static condition had slightly higher overall accuracy than the interactive condition.
 
-Task difficulty had a larger effect than the condition. Task 2 had high accuracy in both versions, while Task 1 produced more incorrect and `No answer` responses. For example, Task 2B had an accuracy of **1.0** in both conditions.
+Task difficulty had a larger effect on accuracy. Task 1 had an overall accuracy of about 0.50, while Task 2 had an overall accuracy of about 0.95. Task 1 also had more incorrect and No answer responses.
 
 ### Completion time
 
 ![Completion time comparison](AS3_figures/task4_completion.png)
 
-Participants were slightly faster overall with the interactive version. However, this pattern was not consistent across every task. For Task 1A, the interactive mean time was **53.4 seconds**, compared with **62.8 seconds** for static. In Task 1B, the interactive version was slower at **50.4 seconds**, compared with **43.2 seconds** for static.
+Participants were slightly faster overall with the interactive version, but this was not consistent for every task.
 
-### Differences across participants and tasks
+Task 1 took about 52.5 seconds on average, while Task 2 took about 24.4 seconds. This shows that Task 1 required much more time than Task 2.
 
-Performance also varied across participants. Some participants completed the interactive condition faster, while others were faster with the static condition. Accuracy also varied, with some participants performing equally in both conditions and others performing better in one condition.
+### Differences across participants
 
-Task 1 was generally more difficult and slower than Task 2. This is consistent with the pilot observation that Task 1 required more calculation steps.
+Performance also varied across participants. For example, P01 was faster with the interactive version, while P08 was faster with the static version. This shows that the effect of interaction was not the same for every participant.
 
 ### Interpretation
 
-My hypothesis was that the interactive version would reduce completion time while maintaining similar accuracy. The results provide limited support for this hypothesis. The interactive version was slightly faster overall, but its accuracy was also slightly lower.
+My hypothesis was that the interactive version would reduce completion time while maintaining similar accuracy.
 
-Because the differences were small and performance varied across tasks and participants, the results do not show that one version was clearly better than the other.
+The results provide limited support for this hypothesis. The interactive version was slightly faster overall, but its accuracy was also slightly lower. The results suggest that task difficulty had a larger effect on performance than whether the visualization was static or interactive.
+
+Because the differences between the two conditions were small, I cannot conclude that one version was clearly better than the other.
 
 ## Task 5: Reflection and Recommendations
 
-The interactive version was slightly faster overall, but it did not improve accuracy. One strength of the interaction is that it shows only one graph at a time, which can reduce visual clutter compared with the two side-by-side static charts.
+The interactive version was slightly faster overall, but it did not improve accuracy. One strength of the interactive design is that it shows one graph at a time, which reduces visual clutter compared with the two graphs shown side by side in the static version.
 
-A weakness is that switching between views did not consistently improve performance. Task 1 was much slower and more difficult than Task 2 in both conditions, suggesting that task difficulty had a larger effect than the interaction itself.
+However, the interaction did not consistently improve performance. Some participants were faster with the interactive version, while others were faster with the static version. Task 1 was also much more difficult and time-consuming than Task 2.
 
-If I improved the visualization, I would make the relationship between the raw occupancy and occupancy index views clearer and add more guidance for interpreting the occupancy index.
+If I improved the visualization, I would make the exact occupancy values easier to read, such as by adding clearer value labels or details-on-demand. This could reduce the amount of calculation needed for the disparity questions.
 
-This evaluation also has several limitations. The study used only 10 participants, participants had different backgrounds, and the two analytical tasks had different difficulty levels. Participants also recorded their own completion times, which may have introduced small timing differences. Learning effects may also have influenced performance because every participant used both conditions.
+There are several limitations in this evaluation. The study only included 10 participants, and participant background was not controlled, so differences in visualization experience may have affected performance. Task 1 and Task 2 also had different difficulty levels. Participants recorded their own completion times, which may have caused small differences in timing. Learning effects may also have affected the results because every participant used both versions.
 
-Overall, the interactive version provided a cleaner way to switch between the two views, but the results do not show a clear performance advantage over the static version.
+Overall, the interactive version provided a cleaner way to switch between the two views, but the evaluation did not show a clear performance advantage over the static version.
